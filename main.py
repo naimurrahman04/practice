@@ -43,26 +43,73 @@ print(ceil(23.000001))
 
 #understanding input
 
-age=input("what is your age:")
+#age=input("what is your age:")
 
-print("my age is"+age)
-
-
+#print("my age is"+age)
 
 
+#functions
+
+def love(name):
+    print("I love "+name)
+
+love("pizza")
+
+
+def person1(name):
+    print(name+" : hello how can I help you?")
+
+
+"""
+
+def person2(food,drink,desert,name):
+    name = input("What is your name")
+    food = input("What type of food do you want?")
+    drink = input("What do you wnat to eat?")
+    desert = input("What desert do you want?")
+
+    print(name+": I would like "+food+" I want to drink"+drink+" I want "+desert+" as desert")
 
 
 
 
 
 
+person1("Waiter")
+person2("food","drink","desert","name")
+"""
+def calculation(a,b,c):
+    print(a)
+    print(b)
+    print(c)
+    return print(a+b+c)
+    
 
+"""""
+x=int(input("enter value for a:"))
+y=int(input("enter value for b:"))
+z=int(input("enter value for c:"))
+print(x)
+print(y)
+print(z)
+calculation(x,y,z)
+"""
+###if statments
 
+I_want_to_eat=False
+I_want_to_drink=True
 
+if not I_want_to_eat:
+    print("Let's have a pizza")
+elif I_want_to_drink:
+    print("Let's drink")    
+else: print("I'm good")
 
-
-
-
-
-
+var1=3
+var2=3
+var3=3
+if var1==var2==var3:
+    print("yes")
+else:
+    print("no")
 
